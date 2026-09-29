@@ -9,7 +9,7 @@ metadata:
 
 Write an email that makes this particular recipient think: **“That would be useful for what I'm doing. Send it.”**
 
-The output is a subject and a short first email that makes the seller's value credible and offers one small asset connected to it. Show why this recipient, what useful outcome the seller helps achieve, what demonstrates that capability, and what the recipient can receive next. You choose the angle, research the proof and design the offer. The operator supplies the seller, brief and prospect research; do not require them to invent the campaign for you.
+The output is a subject and a short first email that makes the seller's value credible and offers one small asset connected to it. Show why this recipient, what useful outcome the seller helps achieve, what demonstrates that capability, and what the recipient can receive next. You choose the angle, research the proof and design the offer. The operator supplies the seller and recipient context, plus any available research; do not require them to invent the campaign for you.
 
 ## Default email structure
 
@@ -165,7 +165,7 @@ If the asset has not been made, offer to prepare and share it. “I can put toge
 
 ## 3. Substantiate the outcome with relevant customer proof
 
-Search for customer proof during the task. Select it by the comparable job and approach, not logo recognition or the largest percentage.
+Search for customer proof during the task. Start with official customer stories and attributable customer statements. Read the underlying source before using a result; a search snippet is only a lead. Select proof by the comparable job and approach, not logo recognition or the largest percentage.
 
 Understand what the customer did, what changed and which part of that story makes the proposed asset useful. The proof establishes that the seller has helped with a comparable job. Preserve the result's scope and conditions. A reduction in one handoff's time cannot become a reduction in the whole department's workload. A product adoption quote cannot establish an improved workflow.
 
