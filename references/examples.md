@@ -1,6 +1,6 @@
 # Additional fictional contrasts
 
-These examples teach decisions. Every person, company, capability and result is invented for the stated input. None is a source of real customer proof, and none is an owner-approved or commercially tested email.
+These examples teach decisions. Every person, company, capability and result is invented for the stated input. Use them to learn the method, never as evidence for a real email.
 
 ## 1. Existing usage changes the asset
 
