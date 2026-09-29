@@ -2,7 +2,7 @@
 name: lammel-copywriting
 description: Research buying signals and write crisp, highly personalized B2B cold emails. Use Google or available web search to find relevant initiatives, verify the owner and timing, connect a supported seller outcome and customer result, and offer one useful asset.
 metadata:
-  version: "0.4"
+  version: "0.5"
 ---
 
 # Lammel Copywriting
@@ -11,23 +11,47 @@ Write an email that makes this particular recipient think: **“That would be us
 
 The output is a subject and a short first email that makes the seller's value credible and offers one small asset connected to it. Show why this recipient, what useful outcome the seller helps achieve, what demonstrates that capability, and what the recipient can receive next. You choose the angle, research the proof and design the offer. The operator supplies the seller and recipient context, plus any available research; do not require them to invent the campaign for you.
 
-## Default email structure
+## Required email shape and voice
 
-Use this structure as the starting point:
+For an English first email, follow this shape unless the user explicitly requests another. The first sentence after the greeting must start with the exact word **“Saw ”** and describe one concrete, supported observation. Do not open with a role summary, a question, a product pitch or a list of responsibilities.
+
+**Non-negotiable output rules:**
+
+- Put `Hi [first name],` on its own line, followed by a blank line and `Saw [specific observation].`
+- Keep the seller outcome and relevant customer result in the next short paragraph. Start the outcome with `We help`. End with one asset CTA, normally `Worth sending over [specific asset]?`
+- No em dashes (U+2014), en dashes (U+2013) or double hyphens in the subject or body. Use a period, comma or ordinary wording. Put a supplied sender name on its own line, with no dash before it. Never invent a sender.
+- Keep the entire body under 80 words, including greeting and signature. Cut secondary facts and product lists first.
+- Sound like someone pointing out one thing they noticed. Research labels such as “your remit includes,” “your mandate spans” and “your stack” do not belong in the opener.
+
+For another requested language, preserve the same short observation-first structure using its natural equivalent. For English, keep the literal `Saw` opening.
 
 ```text
 Hi {{first_name}},
 
 Saw {{specific_signal}}.
 
-We help {{type_of_company}} {{specific_outcome}}. Recently, we helped {{similar_customer}} {{specific_result}} in {{timeframe}}.
+We help {{type_of_company}} {{specific_outcome}}. {{similar_customer}} used {{product}} to {{supported_result}}.
 
-Worth sending over {{low_risk_asset}}?
+Worth sending over {{specific_useful_asset}}?
 ```
+
+### Turn the research into something a person would say
+
+Use the research to choose a useful observation, then write that observation in fresh language. Do not copy a person's title, the full job description or your internal explanation into the email.
+
+Fictional teaching contrast, with an open role explicitly tasked with automating invoice matching:
+
+- **Bad:** “Your finance remit includes billing, collections, reconciliation and multi-currency workflows.” This reads their job back to them and names no particular change.
+- **Still bad:** “Saw your finance remit includes billing and collections.” Adding `Saw` has not improved the idea.
+- **Better:** “Saw Aster is hiring someone to automate invoice matching.” One observable fact gives the email a subject.
+
+Prefer ordinary actions to analyst language: “match payments to invoices” over “payment-ops reconciliation orchestration.” Use an exact technical term when the recipient needs it, but explain one task instead of cataloguing systems and processes. “Worth sending an example showing how one payment matches its invoice and bank entry?” describes an asset more clearly than “a payment-ops blueprint.” Only offer that example when the seller supports the same task.
+
+## Build the commercial argument
 
 The commercial middle is essential: it tells the reader what we help achieve and why they should believe us. A personalized opener followed directly by an offer to sketch something leaves that argument unfinished. Keep the outcome and customer evidence when tightening the email.
 
-Fill the structure through research and judgment. All four parts must concern the same useful outcome. Use the seller or product name where the reader needs it. Natural variations in wording are welcome; do not replace the structure with an asset-only email by default. “Recently,” a metric and a timeframe appear only when supported. A relevant qualitative customer result is valid proof. Missing proof is an explicit fallback, not the model's easiest route.
+Fill the structure through research and judgment. All four parts must concern the same useful outcome. Use the seller or product name where the reader needs it. Vary the facts and wording within the required shape. Keep the `Saw` observation, `We help` outcome, relevant proof and asset CTA. “Recently,” a metric and a timeframe appear only when supported. A relevant qualitative customer result is valid proof. Missing proof is an explicit fallback, not the model's easiest route.
 
 Read this whole file. It contains the complete method and essential teaching examples. Additional examples are optional. No installation, other skill or script is required.
 
@@ -184,7 +208,7 @@ Make the connection easy to grasp on the first read. Preserve these four jobs:
 3. **Proof:** a comparable customer's supported result.
 4. **Asset CTA:** an easy invitation to receive something useful connected to that outcome and evidence.
 
-The default is a short signal paragraph, an outcome-and-proof paragraph, and an asset CTA. These must read as one connected argument. Adapt sentence length and phrasing to the facts; do not omit the seller's value and proof just to spend more words describing the asset. The structure is a guide to what the message must communicate, not permission to fabricate a missing slot.
+Use the required greeting, a short `Saw` observation paragraph, an outcome-and-proof paragraph, and an asset CTA. These must read as one connected argument. Adapt the wording inside that shape; do not omit the seller's value or proof to spend more words describing the asset. An empty factual slot requires research or a disclosed gap, never fabrication.
 
 Use the recipient's normal vocabulary, concrete verbs and short, complete sentences. A technical term is useful when it names their actual work precisely. A pile of technical nouns is usually hiding an unresolved thought.
 
@@ -194,7 +218,7 @@ Name the seller or product briefly where needed to make the contribution intelli
 
 Use one low-effort CTA naming the asset or referring unambiguously to it: “Worth sending over a breakdown of that approval flow for your two new offices?” If the outcome and proof already establish the payoff, the CTA needs only enough detail to make the asset clear. Do not add a long asset-description paragraph by habit. A bare “Worth comparing your setup?” offers no asset. A meeting, demo call or generic product tour does not fulfill this skill's asset CTA.
 
-A thoughtful question can create curiosity when it concerns a real choice. Do not force a “poke the bear” opener, ask professionals to explain their basic job, or hide a diagnosis in a question. “How are you handling the chaos from your expansion?” still asserts chaos.
+Keep curiosity in the useful asset and its permission question. Do not replace the `Saw` opening with a question, ask professionals to explain their basic job, or hide a diagnosis in a question. “How are you handling the chaos from your expansion?” still asserts chaos.
 
 Use a short, honest subject tied to the task or asset. No fake reply prefix, false urgency, flattery or em dashes. Do not invent a sender name or sign-off. Obey the requested word limit by cutting secondary ideas, not by compressing the useful connection into jargon.
 
@@ -259,6 +283,10 @@ The signal explains relevance. The outcome explains the seller's value. The cust
 > Worth sending a sample catch-up lesson for your evening cohort?
 
 The outcome and customer evidence remain explicit without inventing a metric or timeframe. The asset gives Nora a small way to evaluate the same approach. All four parts concern catching up before the next practical.
+
+## Final pass before output
+
+Inspect the actual subject and body, not your intention. Check that the greeting stands alone; the first content sentence starts `Saw `; it describes one observed fact rather than a role recap; `We help` states one useful outcome; customer proof supports that same task; and the CTA names a useful asset. Count the body words. Scan for U+2014, U+2013 and double hyphens, including around the greeting and signature. Rewrite any violation before returning the email. A compliant explanation does not repair a noncompliant body.
 
 ## Output
 
