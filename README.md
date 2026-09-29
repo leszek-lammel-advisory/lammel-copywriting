@@ -2,13 +2,15 @@
 
 The complete research and writing method is on this page. Apply it to the supplied seller and recipient; no second file fetch is needed. The same method is available as [SKILL.md](SKILL.md) and as a [plain-text file](https://raw.githubusercontent.com/leszek-lammel-advisory/lammel-copywriting/main/SKILL.md).
 
+**Research first: verify the exact product fit and find relevant customer proof. Missing proof in the input means research it.**
+
 **Email essentials: `Hi [name],` then a new paragraph starting `Saw`. One concrete observation, a `We help` outcome with relevant customer proof, and one useful asset CTA. Under 80 words. No em dashes, role recaps or jargon-heavy process lists.**
 
 ## Use it
 
 ```text
 Use https://github.com/leszek-lammel-advisory/lammel-copywriting.
-Apply its complete research and writing method.
+Read and apply its complete research and writing method, including the rules before drafting. Research missing evidence before using a fallback.
 Seller: [NAME + WEBSITE + PRODUCT/USE CASE]
 Recipient: [NAME + ROLE + COMPANY + WEBSITE]
 Research: [OPTIONAL]
@@ -22,9 +24,29 @@ Write an email that makes this particular recipient think: **“That would be us
 
 The output is a subject and a short first email that makes the seller's value credible and offers one small asset connected to it. Show why this recipient, what useful outcome the seller helps achieve, what demonstrates that capability, and what the recipient can receive next. You choose the angle, research the proof and design the offer. The operator supplies the seller and recipient context, plus any available research; do not require them to invent the campaign for you.
 
+## Apply these rules before drafting
+
+This is a research-and-writing task. Reading this method is not the research. If a page-reading tool returns a summary, retain every rule below and read the relevant sections before filling any gap.
+
+1. **Hold the product fixed.** Verify that the prospect's observed work concerns the exact product and use case in the brief. A signal for an adjacent product is not usable. If focused research finds no defensible connection, return no email and explain `no_supported_angle` in the explanation field. Do not change the product to rescue the draft.
+2. **Research customer proof.** If the input has no relevant proof, search the seller's official customer stories and read the strongest underlying source. Missing input is a research instruction, not permission to omit proof. Use the missing-proof fallback only after that search fails, and name the research gap in the explanation.
+3. **Open with one thing noticed.** After `Hi [first name],` and a blank line, start exactly `Saw `. Keep this sentence to 18 words or fewer. Name one concrete action, decision or change. No exact job titles, company-size stats, responsibility lists or phrases such as “your remit includes,” “your role covers,” or “the role includes.” Do not assert a project more strongly than the evidence supports.
+4. **Keep the commercial middle.** `We help [relevant type of company] [one specific outcome]. [Customer] used [product] to [verified result].` The customer result must support the same job, not merely mention the seller. Never invent metrics, timing or proof.
+5. **Offer a small worked answer.** End with `Worth sending over [specific asset]?` The recipient should picture what it shows: one filled-in example, a comparison of named choices, or a breakdown of one documented approach. “A blueprint covering controls, exception handling and reporting” fails. Naming topics is not designing an asset. Do not use “blueprint,” “framework” or “playbook” as an unexplained substitute for its contents.
+6. **Check the actual text.** Under 80 words including greeting and any supplied signature. No em dashes, en dashes or double hyphens anywhere in subject or body. No dash before a signature. Put sources and limitations outside the email. Fix violations before returning it.
+
+Fictional compression example, based on an explicit hiring mandate:
+
+- Reject: “Saw Aster's Senior Finance Operations role includes billing, collections, bank reconciliation and multi-currency automation.”
+- Use: “Saw Aster is hiring someone to automate invoice matching.”
+- Reject offer: “A tailored reconciliation blueprint covering controls and reporting.”
+- Use offer: “An example showing how one payment matches its invoice and bank entry.”
+
+The shorter version preserves one supported job. It does not merely abbreviate the title or delete random words. Use it only when invoice matching is the evidenced task and the seller supports it.
+
 ## Required email shape and voice
 
-For an English first email, follow this shape unless the user explicitly requests another. The first sentence after the greeting must start with the exact word **“Saw ”** and describe one concrete, supported observation. Do not open with a role summary, a question, a product pitch or a list of responsibilities.
+For an English first email, follow this shape unless the user explicitly requests another. The first sentence after the greeting must start with the exact word **“Saw ”**, stay within 18 words and describe one concrete, supported observation. Do not open with a role summary, a question, a product pitch or a list of responsibilities.
 
 **Non-negotiable output rules:**
 
@@ -32,7 +54,7 @@ For an English first email, follow this shape unless the user explicitly request
 - Keep the seller outcome and relevant customer result in the next short paragraph. Start the outcome with `We help`. End with one asset CTA, normally `Worth sending over [specific asset]?`
 - No em dashes (U+2014), en dashes (U+2013) or double hyphens in the subject or body. Use a period, comma or ordinary wording. Put a supplied sender name on its own line, with no dash before it. Never invent a sender.
 - Keep the entire body under 80 words, including greeting and signature. Cut secondary facts and product lists first.
-- Sound like someone pointing out one thing they noticed. Research labels such as “your remit includes,” “your mandate spans” and “your stack” do not belong in the opener.
+- Sound like someone pointing out one thing they noticed. Research labels such as “your remit includes,” “your mandate spans,” “the role includes” and “your stack” do not belong in the opener.
 
 For another requested language, preserve the same short observation-first structure using its natural equivalent. For English, keep the literal `Saw` opening.
 
@@ -208,7 +230,7 @@ Proof and offer may be chosen together. A well-documented customer approach can 
 
 Write one concise customer-result sentence beside the seller's outcome. A named, comparable customer and a specific supported result are the default. A qualitative change is acceptable when that is what the source documents. Leave out unsupported numbers, recency or timeframes while preserving the strongest truthful result. “Recently, we helped” is appropriate only when the source supports that timing and relationship; “Customer X used Product Y to…” can preserve the attribution more precisely.
 
-If no relevant result can be verified after focused research, retain the supported outcome statement, offer a relevant asset and flag `missing_customer_proof` outside the email. This is an incomplete-proof fallback, not a full-quality example of the default structure. Never invent a result or conceal the gap with an unnamed “similar company.” If the brief explicitly requires customer proof, mark that requirement unmet.
+If no relevant result can be verified after searching official customer sources and reading the strongest candidate, retain the supported outcome statement, offer a relevant asset and flag `missing_customer_proof` outside the email. State which source or query was checked and why it did not support the result. If browsing is unavailable, disclose that instead of claiming a failed search. Do not use this fallback just because the supplied prospect research contains no seller proof. This is an incomplete-proof fallback, not a full-quality example of the default structure. Never invent a result or conceal the gap with an unnamed “similar company.” If the brief explicitly requires customer proof, mark that requirement unmet.
 
 ## 4. Write the email around the useful idea
 
@@ -297,7 +319,7 @@ The outcome and customer evidence remain explicit without inventing a metric or 
 
 ## Final pass before output
 
-Inspect the actual subject and body, not your intention. Check that the greeting stands alone; the first content sentence starts `Saw `; it describes one observed fact rather than a role recap; `We help` states one useful outcome; customer proof supports that same task; and the CTA names a useful asset. Count the body words. Scan for U+2014, U+2013 and double hyphens, including around the greeting and signature. Rewrite any violation before returning the email. A compliant explanation does not repair a noncompliant body.
+Inspect the actual subject and body, not your intention. Check that the greeting stands alone; the first content sentence starts `Saw `; it describes one observed fact rather than a role recap; `We help` states one useful outcome; customer proof supports that same task; and the CTA names a useful asset. Count the opener words (maximum 18) and body words (under 80). Reject titles or lists disguised as a Saw observation, and document labels disguised as an asset. Scan for U+2014, U+2013 and double hyphens, including around the greeting and signature. Rewrite any violation before returning the email. A compliant explanation does not repair a noncompliant body.
 
 ## Output
 
@@ -306,7 +328,7 @@ Return the requested fields. Unless the caller supplies another format, use:
 - `subject`: the subject line.
 - `body`: only the prospect-facing email, under 80 words unless overridden.
 - `sources`: the actual URLs supporting the personalization, product capability and customer proof, labeled by use. Identify supplied evidence as supplied; never manufacture a URL.
-- `note`: empty when no material gap exists; otherwise one concise limitation such as missing customer proof, limited personalization or missing essential input.
+- `note`: empty when no material gap exists; otherwise one concise limitation such as missing customer proof, limited personalization or missing essential input. If the requested format uses `reasoning` instead, put the evidence and limitations there. For `no_supported_angle`, return an empty subject and body (or equivalent requested email fields) plus the reason. Do not put an internal warning in a prospect-facing email field.
 
 Keep citations, evidence limitations, asset-production notes and explanations out of the prospect-facing body. Do not return candidate angles, a scoring rubric or a long explanation unless asked. Do not send the email or create the promised asset as part of this writing task.
 
