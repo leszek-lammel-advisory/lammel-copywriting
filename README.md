@@ -6,8 +6,9 @@ A complete method for researching and writing crisp, personalized B2B emails wit
 
 ```text
 Use https://github.com/leszek-lammel-advisory/lammel-copywriting.
-Read SKILL.md in full, including its writing contract, examples and final check.
-Request the actual text rather than a summary of key instructions.
+Retrieve the six rules under "The writing contract" and the opener and asset examples from this page.
+Preserve exact opening, length and punctuation requirements. Apply them and check the final email.
+If the method cannot be read, report skill_unavailable instead of inventing its rules.
 Seller: [NAME + WEBSITE + EXACT PRODUCT/USE CASE]
 Recipient: [NAME + ROLE + COMPANY + WEBSITE]
 Research: [OPTIONAL]
